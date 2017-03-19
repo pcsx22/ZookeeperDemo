@@ -1,5 +1,7 @@
 # ZookeeperDemo
-Steps to setup the environment:
+- Demonstartes the usage of zookeeper as a service for leader election and service discover for building distributed applications
+
+# Steps to setup the environment:
   1. Install Docker
   2. Download apache zookeeper-3.3.36 if the zookeeper directory already present in the project folder is corrupt
   3. Build "base_img" image from base_img directory
