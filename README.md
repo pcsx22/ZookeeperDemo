@@ -11,7 +11,9 @@ NOTE: Dockerfile is written such that it uses college proxy. Remove the proxy se
 outside college.
  
  Command to start Zookeeper: ./start.sh zookeeper
+ 
  Command to start webserver: ./start.sh web-server
+ 
  Command to start db server: ./start.sh db-server
  
  Port 8000 of webserver container is mapped to port 8000 of host, so in order to make request to webserver, use "127.0.0.1:8000/testapp" as the url
